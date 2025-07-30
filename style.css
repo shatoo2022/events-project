@@ -1,0 +1,19 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+}
